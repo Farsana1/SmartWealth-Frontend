@@ -1,0 +1,26 @@
+*{
+  color: #333333;
+}
+
+notfound {
+  min-height: 750px;
+}
+.notfound .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.notfound .content a {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 7px 30px;
+  background: transparent;
+  border: 1px solid #510752;
+  color: #510752;
+  text-decoration: none;
+}
+.notfound .content a:hover {
+  background: #510752;
+  transition: all 0.3s;
+  color: #f1f3f6;
+}
